@@ -15,16 +15,17 @@ const About = () => {
                     <h3>Helping tommorow</h3>
                 </div>
                 <div className='text-white flex text-sm gap-3 justify-center my-3'>
-                    <div className="left hover:text-orange-300 cursor-pointer">Email:vysanmukti@gmail.com</div>
-                    <div className="right hover:text-orange-300 cursor-pointer">Phone:(0321)747-858</div>
+                    {/* <div className="left hover:text-orange-300 cursor-pointer">Email:vysanmukti@gmail.com</div> */ }
+                    <div className="right cursor-pointer text-center">Phone: <Link className='mx-1 hover:text-orange-300 hover:underline' to="tel:+9226111567">9226111567,</Link> <Link className='mx-1 hover:text-orange-300 hover:underline' to={"9209874459"}>9209874459,</Link> <Link className='mx-1 hover:text-orange-300 hover:underline' to="9209935025">9209935025,</Link> <Link className='hover:text-orange-300 hover:underline' to="9209926969" >9209926969</Link></div>
                 </div>
+                ""
                 <div className='text-white flex justify-center gap-5 items-center'>
                     <h2>Social Network</h2>
                     <div className='text-orange-400 flex gap-3 text-2xl'>
-                        <Link to={"https://www.facebook.com"}><FaFacebookF className='hover:cursor-pointer' /></Link>
-                        <Link to={"https://www.twitter.com"}><FaTwitter className='hover:cursor-pointer' /></Link>
-                        <Link to={"https://www.youtube.com"}><FaYoutube className='hover:cursor-pointer' /></Link>
-                        <Link to={"https://www.instagram.com"}><FaInstagram className='hover:cursor-pointer' /></Link>
+                        <Link to={ "https://www.facebook.com" }><FaFacebookF className='hover:cursor-pointer' /></Link>
+                        <Link to={ "https://www.twitter.com" }><FaTwitter className='hover:cursor-pointer' /></Link>
+                        <Link to={ "https://www.youtube.com" }><FaYoutube className='hover:cursor-pointer' /></Link>
+                        <Link to={ "https://www.instagram.com" }><FaInstagram className='hover:cursor-pointer' /></Link>
                     </div>
                 </div>
             </div>
